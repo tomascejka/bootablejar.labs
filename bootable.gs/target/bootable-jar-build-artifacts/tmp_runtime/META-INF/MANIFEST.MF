@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.4.0
+Build-Jdk-Spec: 11
+Specification-Title: WildFly: Bootable Jar boot
+Specification-Version: 19.0
+Specification-Vendor: JBoss by Red Hat
+Implementation-Title: WildFly: Bootable Jar boot
+Implementation-Version: 19.0.1.Final
+Implementation-Vendor: JBoss by Red Hat
+Main-Class: org.wildfly.core.jar.boot.Main
+Add-Exports: java.desktop/sun.awt java.naming/com.sun.jndi.ldap java.nam
+ ing/com.sun.jndi.url.ldap java.naming/com.sun.jndi.url.ldaps jdk.naming
+ .dns/com.sun.jndi.dns
+Add-Opens: java.base/java.lang java.base/java.lang.invoke java.base/java
+ .lang.reflect java.base/java.io java.base/java.security java.base/java.
+ util java.base/java.util.concurrent java.management/javax.management ja
+ va.naming/javax.naming
+Implementation-URL: http://www.jboss.org/wildfly-core-parent/wildfly-jar
+ -parent/wildfly-jar-boot
+JBossAS-Release-Version: 19.0.1.Final
+Java-Vendor: Oracle Corporation
+Java-Version: 11.0.16
+Multi-Release: true
+Os-Arch: amd64
+Os-Name: Linux
+Os-Version: 5.14.0-162.6.1.el9_1.x86_64
+Scm-Connection: scm:git:git@github.com:wildfly/wildfly-core.git/wildfly-
+ jar-parent/wildfly-jar-boot
+Scm-Revision: c399950bb5f959babb8a4405ebf6522ec65c373d
+Scm-Url: https://github.com/wildfly/wildfly-core
+
